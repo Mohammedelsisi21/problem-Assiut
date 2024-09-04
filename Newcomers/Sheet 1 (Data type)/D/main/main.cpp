@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    long long x, y, a, b;
+    cin>>x>>y>>a>>b;
+    long long deff;
+    deff = (x * y) - (a * b);
+    cout<< "Difference = " << deff<<endl;
     return 0;
 }
