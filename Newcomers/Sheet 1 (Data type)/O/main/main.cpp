@@ -4,6 +4,21 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    long long x, y, s;
+    char opr;
+    cin>>x>>opr>>y;
+    if (opr == '+'){
+        s = x+y;
+    }
+    if (opr == '-'){
+        s = x-y;
+    }
+    if (opr == '*'){
+        s = x*y;
+    }
+    if (opr == '/'){
+        s = x/y;
+    }
+    cout<<s<<endl;
     return 0;
 }

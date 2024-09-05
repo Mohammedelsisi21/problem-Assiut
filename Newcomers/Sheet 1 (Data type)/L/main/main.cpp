@@ -4,6 +4,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    string F1, S1, F2, S2;
+    cin>>F1>>S1>>F2>>S2;
+    if(S1 == S2){
+        cout<<"ARE Brothers"<<endl;
+    }else{
+        cout<<"NOT"<<endl;
+    }
+
     return 0;
 }
