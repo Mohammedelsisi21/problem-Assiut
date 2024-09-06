@@ -4,6 +4,26 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int x, y;
+    char opr;
+    cin>>x>>opr>>y;
+    if(opr == '>'){
+        if( x > y)
+            cout<<"Right"<<endl;
+        else
+            cout<<"Wrong"<<endl;
+    }
+    if(opr == '<'){
+        if( x < y)
+            cout<<"Right"<<endl;
+        else
+            cout<<"Wrong"<<endl;
+    }
+    if(opr == '='){
+        if( x == y)
+            cout<<"Right"<<endl;
+        else
+            cout<<"Wrong"<<endl;
+    }
     return 0;
 }
