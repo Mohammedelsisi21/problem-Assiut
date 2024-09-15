@@ -1,4 +1,10 @@
 # depslib dependency file v1.0
-1725800704 source:g:\web\my_project\problem-solving\newcomers\sheet 1 (data type)\contest\i\main\main.cpp
+1725804613 source:g:\web\my_project\problem-solving\newcomers\sheet 1 (data type)\contest\i\main\main.cpp
+	<iostream>
+	<iostream>
+	<iostream>
+	<iostream>
+	<string>
+	<iostream>
 	<iostream>
 

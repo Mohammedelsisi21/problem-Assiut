@@ -4,6 +4,15 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int x;
+    while(true){
+        cin>>x;
+        if(x == 1999){
+            cout<<"Correct"<<endl;
+            break;
+        }
+        else
+            cout<<"Wrong"<<endl;
+    }
     return 0;
 }
